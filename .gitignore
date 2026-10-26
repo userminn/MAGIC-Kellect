@@ -1,0 +1,21 @@
+# Large datasets
+data/cadets/*.pkl
+data/cadets/graphs.zip
+data/streamspot/graphs.zip
+data/theia/graphs.zip
+data/trace/graphs.zip
+data/wget/graphs.zip
+
+# Generated cache files
+eval_result/distance_save_*.pkl
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# IDE files
+.idea/
+
+# Raw logs may contain sensitive information
+wechat_test/wechat_raw.json
